@@ -9,7 +9,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/simongolms/simongolms.git"
+		"url": "https://github.com/simongolms/npx-card.git"
 	},
 	"bin": {
 		"simongolms": "./bin/card.js"

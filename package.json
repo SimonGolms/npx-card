@@ -1,38 +1,39 @@
 {
 	"name": "simongolms",
-	"version": "0.1.0",
-	"description": "A personal card for Simon Golms (@simongolms)",
+	"version": "0.1.1",
+	"description": "The personal business card for Simon Golms (@simongolms)",
+	"keywords": [
+		"card",
+		"npm card",
+		"npx",
+		"npx card",
+		"business card",
+		"profile"
+	],
+	"homepage": "https://github.com/simongolms/npx-card.git",
+	"license": "MIT",
 	"author": {
-		"name": "Simon Golms",
+		"name": "Simon Golms",
 		"email": "development@gol.ms",
 		"url": "https://gol.ms"
+	},
+	"files": [
+		"bin/card.js",
+		"bin/output"
+	],
+	"main": "bin/card.js",
+	"bin": {
+		"simongolms": "./bin/card.js"
 	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/simongolms/npx-card.git"
 	},
-	"bin": {
-		"simongolms": "./bin/card.js"
-	},
-	"main": "bin/card.js",
-	"files": [
-		"bin/card.js",
-		"bin/output"
-	],
-	"keywords": [
-		"npm card",
-		"npx",
-		"card",
-		"npx card",
-		"business card"
-	],
-	"license": "MIT",
 	"scripts": {
-		"prepublish": "npm run build",
-		"build": "node build.js",
-		"dev": "npm run build && node ./bin/card.js",
-		"lint": "standard",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"prepublish": "npm run build",
+		"build": "node build.js",
+		"dev": "npm run build && node ./bin/card.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"devDependencies": {
 		"boxen": "^4.1.0",

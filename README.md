@@ -2,6 +2,8 @@
 
 This is my personal digital business card.
 
+[![npm version](https://badge.fury.io/js/simongolms.svg)](https://badge.fury.io/js/simongolms)
+
 <p align="center">
   <img src="static/demo.png" alt="npx simongolms demo"/>
 </p>
